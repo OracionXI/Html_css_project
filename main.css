@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-image: url(./images/pexels-eberhard-grossgasteiger-691668.jpg);
+    min-height: 82vh;
+    background-color: rgba(52, 54, 56, 0.384);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.row{
+    margin: 0;
+}
+
+a {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 0 20px;
+}
+
+.navbar-nav {
+    font-size: .47cm;
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #f8f9fa;
+    --bs-nav-link-hover-color: rgb(29, 27, 27);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-expand-md {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: auto;
+    padding: 27px 0 0 0;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .3s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link::after{ 
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: #02131c;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.banner {
+    text-align: center;
+    margin: auto;
+    padding: 285px 0 0 0;
+}
+
+.header h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 800;
+    padding: 0px 0px 30px 0;
+}
+
+.btn-learn {
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f9fa;
+    background: #02131c;
+    padding: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-learn:hover{
+    color: #f8f9fa !important;
+    background: #02131c !important;
+    box-shadow: 0 0 20px 0 rgba(230, 223, 223, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+/*Section 2*/
+
+.quote{
+    background-color: black;
+    position: relative;
+    padding: 60px 0 60px 0;
+}
+
+.quote-1 img{ /*Image part*/
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    width: 90px;
+}
+
+.statement {
+    font-family: 'Montserrat', sans-serif;
+    flex: 0 0 auto;
+    width: 83.33333333%;
+    text-align: center;
+    margin: auto;
+}
+
+.quote h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #a2a6ab;
+    text-align: center;
+    font-size: 23px;
+}
+
+.quote p{
+    font-family: 'Montserrat', sans-serif;
+    color: #a2a6ab;
+    padding: 0 20px 0 0
+}
+
+/*Section 3*/
+
+.event{
+    background-color: #eff3f8;
+}
+
+.event span{
+    display: block;
+    height: 3px;
+    width: 70px;
+    background-color: #02131c;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.event h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    padding: 100px 0 40px 0;
+    font-weight: 700;
+}
+
+.camping{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.camping img{
+    border-radius: 30px;
+}
+
+.camping img:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+.hiking{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.hiking img{
+    border-radius: 30px;
+}
+
+.hiking img:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+.event h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.event p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0px 27px 0;
+    width: 80%;
+    margin: auto;
+    font-weight: 500;
+}
+
+.btn-learn1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f9fa;
+    background: #02131c;
+    padding: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.btn-learn1:hover{
+    color: #f8f9fa !important;
+    background: #02131c !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+/*Section 4*/
+
+.explore{
+    background-image: url(./images/pexels-lumn-167684.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.mid-sector1{
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 160px;
+    margin-bottom: 120px;
+}
+
+.explore h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#f8f9fa ;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.explore p{
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f9fa;
+    font-weight: 600;
+    padding: 25px 0;
+}
+
+.btn-learn2{
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f9fa;
+    background: #02131c;
+    padding: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-learn2:hover{
+    color: #f8f9fa !important;
+    background: #02131c !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+/*Section 3*/
+
+.future{
+    padding: 50px 0;
+    background-color: #eff3f8;
+}
+
+.texts{
+    padding: 150px 0 0 0;
+}
+
+.future h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    width: 90%;
+}
+
+.future span{
+    display: block;
+    height: 3px;
+    width: 70px;
+    background-color: #02131c;
+    margin-top: 40px;
+}
+
+.future p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 45px 0;
+    font-weight: 600;
+    text-align: justify;
+    width: 80%;
+}
+
+.btn-learn2{
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f9fa;
+    background: #02131c;
+    padding: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-learn2:hover{
+    color: #f8f9fa !important;
+    background: #02131c !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+.picsec{
+    padding: 20px 0 20px 20px;
+}
+
+.future img{
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+.future img:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7) !important;
+    transition: .4s ease-in-out;
+}
+
+.footer{
+    background-color: #02131c;
+}
+
+.foot{
+    color: #eff3f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media(max-width: 700px){
+    .quote-1 img{ /*Image part*/
+        width: 0px;
+    }
+
+    .btn-learn{
+        margin-bottom: 100px;
+    }
+
+    .header{
+        background-image: url(./images/pexels-eberhard-grossgasteiger-691668.jpg);
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        background-attachment: fixed;
+        object-fit: fill;
+    }
+
+    .header h1 {
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        font-weight: 800;
+        padding: 0px 0px 30px 0;
+    }
+
+    .texts{
+        text-align: -webkit-center;
+    }
+
+    .future h2{
+        font-weight: 800;
+        font-size: 38px;
+    }
+    
+    .future p{
+        font-weight: 600;
+    }
+
+    .picsec{
+        padding: 0 0;
+    }
+    
+    .future img{
+        border-radius: 35px;
+        margin-bottom: 20px;
+    }
+
+}
